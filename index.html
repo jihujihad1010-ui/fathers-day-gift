@@ -1,27 +1,256 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-<title>Father's Day Gift</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>عيد أبٍ سعيد يا أبي ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
 body{
-background:black;
-color:gold;
+background:#050505;
+color:white;
+font-family:'Amiri',serif;
+overflow-x:hidden;
+}
+
+/* Islamic Background */
+
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+opacity:.05;
+background-image:
+radial-gradient(circle at 20% 20%, gold 2px, transparent 2px),
+radial-gradient(circle at 80% 80%, gold 2px, transparent 2px);
+background-size:80px 80px;
+z-index:-2;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
-height:100vh;
-font-family:Arial;
 text-align:center;
+padding:20px;
 }
+
+.hero-content{
+max-width:1000px;
+}
+
+.hero h1{
+font-size:clamp(2rem,5vw,4rem);
+line-height:1.8;
+}
+
+.hero h2{
+color:#d4af37;
+font-size:clamp(2.5rem,6vw,5rem);
+margin-top:30px;
+text-shadow:0 0 20px rgba(212,175,55,.8);
+}
+
+.hero p{
+margin-top:20px;
+font-size:1.4rem;
+}
+
+.hero-btn{
+display:inline-block;
+margin-top:40px;
+padding:18px 45px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:50px;
+box-shadow:0 0 20px gold;
+transition:.3s;
+}
+
+.hero-btn:hover{
+transform:scale(1.05);
+}
+
+/* Section */
+
+.section{
+padding:80px 20px;
+}
+
+.section-title{
+text-align:center;
+font-size:3rem;
+color:#d4af37;
+margin-bottom:50px;
+}
+
+/* Letter */
+
+.letter{
+max-width:1000px;
+margin:auto;
+padding:50px;
+border:2px solid #d4af37;
+border-radius:25px;
+background:rgba(0,0,0,.85);
+line-height:2.2;
+font-size:1.2rem;
+position:relative;
+overflow:hidden;
+}
+
+.memory-bg{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+opacity:.12;
+z-index:-1;
+}
+
+.letter p{
+margin-bottom:18px;
+}
+
+/* Sparkles */
+
+.sparkle{
+position:fixed;
+width:3px;
+height:3px;
+background:gold;
+border-radius:50%;
+animation:twinkle 3s infinite;
+pointer-events:none;
+}
+
+@keyframes twinkle{
+50%{
+opacity:.2;
+}
+}
+
 </style>
 </head>
+
 <body>
 
-<div>
-<h1>السلام عليكم ورحمة الله وبركاته يا أبي</h1>
-<h2>أفضل أبٍ في هذا العالم</h2>
-<p>من ابنتك الصغرى ❤️</p>
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+السلام عليكم ورحمة الله وبركاته يا أبي
+</h1>
+
+<h2>
+أفضل أبٍ في هذا العالم
+</h2>
+
+<p>
+من ابنتك الصغرى
+</p>
+
+<a href="#letter" class="hero-btn">
+اضغط هنا يا أبي ❤️
+</a>
+
 </div>
 
-</body>
-</html>
+</section>
+
+<section id="letter" class="section">
+
+<h2 class="section-title">
+رسالة إلى أبي ❤️
+</h2>
+
+<div class="letter">
+
+<img
+src="IMG_20260621_025150.jpg"
+class="memory-bg"
+alt="Father">
+
+<p><strong>Happy Father's Day.</strong></p>
+
+<p>
+ഇന്ന് ഞാൻ ഒരുപാട് കാലമായി ഉപ്പാനോട് പറയണം എന്ന് വിചാരിച്ചിരുന്ന ചില കാര്യങ്ങൾ പറയാനാണ് എഴുതുന്നത്.
+</p>
+
+<p>
+ഇനി ഏതാനും മാസങ്ങൾക്കുള്ളിൽ എനിക്ക് 18 വയസ്സ് തികയും. അങ്ങനെ എന്റെ ജീവിതത്തെക്കുറിച്ചും പടച്ചോൻ എനിക്ക് തന്ന അനുഗ്രഹങ്ങളെക്കുറിച്ചും ആലോചിക്കുമ്പോൾ ഒരു കാര്യം എനിക്ക് വളരെ ക്ലിയറാണ്.
+</p>
+
+<p>
+പടച്ചോന്റെ അനുഗ്രഹവും ഉപ്പയുടെ ഹാർഡ് വർക്കും കൊണ്ടാണ് എന്റെ ഈ 18 വർഷം ഇത്രയും മനോഹരമായത്.
+</p>
+
+<p>
+ഉപ്പയുടെ ജീവിതത്തെക്കുറിച്ച് ആലോചിക്കുമ്പോൾ, ഞങ്ങൾക്കുവേണ്ടി ഉപ്പ എത്രമാത്രം ത്യാഗം ചെയ്തിട്ടുണ്ടെന്ന് ഇപ്പോഴാണ് ശരിക്കും മനസ്സിലാവുന്നത്.
+</p>
+
+<p>
+വെറും 19 വയസ്സുള്ളപ്പോൾ, മറ്റുള്ളവർ സ്വന്തം ജീവിതത്തെക്കുറിച്ചും സ്വപ്നങ്ങളെക്കുറിച്ചും ചിന്തിക്കുന്ന സമയത്ത്, ഉപ്പ സ്വന്തം സ്വപ്നങ്ങൾ ഒന്ന് മാറ്റിവെക്കേണ്ടി വന്നു.
+</p>
+
+<p>
+ഇപ്പപ്പാ മരിച്ചതിനു ശേഷം ഈ കുടുംബത്തിന്റെ താങ്ങും തണലുമായി മാറിയത് ഉപ്പയാണ്.
+</p>
+
+<p>
+മൂത്ത മോനെന്ന നിലയിൽ ചെയ്യാൻ പറ്റുന്നതെല്ലാം ഉപ്പ ചെയ്തു.
+</p>
+
+<p>
+പഠിക്കാൻ മിടുക്കാനായിട്ടും കുടുംബത്തിന്ചി വേണ്ടി ആ ആഗ്രഹം ത്യാഗം ചെയ്തു.
+</p>
+
+<p>
+ഇപ്പോൾ വലിയ പ്രായമായ ആളുകൾ പോലും ഏറ്റെടുക്കാൻ മടിക്കുന്ന ഉത്തരവാദിത്തങ്ങൾ, ഉപ്പ ചെറുപ്പത്തിൽ തന്നെ ഏറ്റെടുത്തു.
+</p>
+
+<p>
+ഉപ്പ വീട് വിട്ട് സൗദിയിലേക്ക് പോയത് അത് എളുപ്പമായതുകൊണ്ടല്ല. പക്ഷേ കുടുംബത്തിന് ഉപ്പയെ ആവശ്യമുണ്ടെന്ന് ഉപ്പയ്ക്ക് അറിയാമായിരുന്നു.
+</p>
+
+<p>
+ചെറുപ്പത്തിൽ തന്നെ കല്യാണം കഴിച്ചു, ഒരു കുടുംബം ഉണ്ടാക്കി, ഒരു കുട്ടി ആഗ്രഹിക്കാവുന്നതിൽ വെച്ച് ഏറ്റവും നല്ല ജീവിതം ഞങ്ങൾക്ക് നൽകി.
+</p>
+
+<p>
+ഇന്ന് ഞങ്ങൾക്ക് സ്നേഹത്തിനോ, വിദ്യാഭ്യാസത്തിനോ, സൗകര്യങ്ങൾക്കോ, അവസരങ്ങൾക്കോ ഒരു കുറവും വരാതിരുന്നത് ഉപ്പയുടെ ഹാർഡ് വർക്കുകൊണ്ടാണ്.
+</p>
+
+<p>
+ഞങ്ങളുടെ ജീവിതത്തിൽ ഉള്ള ഓരോ നല്ല കാര്യത്തിന്റെയും പിന്നിൽ ഉപ്പയുടെ കഷ്ടപ്പാടും ത്യാഗവും ഉണ്ട്.
+</p>
+
+<!-- PART 1 ENDS HERE -->
+
+</div>
+</section>
